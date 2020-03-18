@@ -1,0 +1,115 @@
+2020-03-16 21:21:14 [scrapy.extensions.telnet] INFO: Telnet Password: 61bd6809005b5126
+2020-03-16 21:21:14 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2020-03-16 21:21:14 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-03-16 21:21:14 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-03-16 21:21:14 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2020-03-16 21:21:14 [scrapy.core.engine] INFO: Spider opened
+2020-03-16 21:21:14 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-03-16 21:21:14 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-03-16 21:21:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://maoyan.com/board/4/> (referer: None)
+2020-03-16 21:21:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://maoyan.com/board/4/>
+{'index': '1',
+ 'releasetime': '上映时间：1993-07-26',
+ 'score': '9.5',
+ 'star': '\n                主演：张国荣,张丰毅,巩俐\n        ',
+ 'title': '霸王别姬'}
+2020-03-16 21:21:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://maoyan.com/board/4/>
+{'index': '2',
+ 'releasetime': '上映时间：1994-09-10(加拿大)',
+ 'score': '9.5',
+ 'star': '\n                主演：蒂姆·罗宾斯,摩根·弗里曼,鲍勃·冈顿\n        ',
+ 'title': '肖申克的救赎'}
+2020-03-16 21:21:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://maoyan.com/board/4/>
+{'index': '3',
+ 'releasetime': '上映时间：1994-09-14(法国)',
+ 'score': '9.5',
+ 'star': '\n                主演：让·雷诺,加里·奥德曼,娜塔莉·波特曼\n        ',
+ 'title': '这个杀手不太冷'}
+2020-03-16 21:21:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://maoyan.com/board/4/>
+{'index': '4',
+ 'releasetime': '上映时间：1953-08-20(意大利)',
+ 'score': '9.0',
+ 'star': '\n                主演：格利高里·派克,奥黛丽·赫本,埃迪·艾伯特\n        ',
+ 'title': '罗马假日'}
+2020-03-16 21:21:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://maoyan.com/board/4/>
+{'index': '5',
+ 'releasetime': '上映时间：1998-04-03',
+ 'score': '9.4',
+ 'star': '\n                主演：莱昂纳多·迪卡普里奥,凯特·温丝莱特,比利·赞恩\n        ',
+ 'title': '泰坦尼克号'}
+2020-03-16 21:21:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://maoyan.com/board/4/>
+{'index': '6',
+ 'releasetime': '上映时间：1939-12-15(美国)',
+ 'score': '9.1',
+ 'star': '\n                主演：费雯·丽,克拉克·盖博,奥利维娅·德哈维兰\n        ',
+ 'title': '乱世佳人'}
+2020-03-16 21:21:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://maoyan.com/board/4/>
+{'index': '7',
+ 'releasetime': '上映时间：1993-07-01(中国香港)',
+ 'score': '9.1',
+ 'star': '\n                主演：周星驰,巩俐,郑佩佩\n        ',
+ 'title': '唐伯虎点秋香'}
+2020-03-16 21:21:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://maoyan.com/board/4/>
+{'index': '8',
+ 'releasetime': '上映时间：1940-05-17(美国)',
+ 'score': '9.2',
+ 'star': '\n                主演：费雯·丽,罗伯特·泰勒,露塞尔·沃特森\n        ',
+ 'title': '魂断蓝桥'}
+2020-03-16 21:21:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://maoyan.com/board/4/>
+{'index': '9',
+ 'releasetime': '上映时间：1993-11-30(美国)',
+ 'score': '9.2',
+ 'star': '\n                主演：连姆·尼森,拉尔夫·费因斯,本·金斯利\n        ',
+ 'title': '辛德勒的名单'}
+2020-03-16 21:21:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://maoyan.com/board/4/>
+{'index': '10',
+ 'releasetime': '上映时间：1999-02-13(中国香港)',
+ 'score': '9.1',
+ 'star': '\n                主演：周星驰,莫文蔚,张柏芝\n        ',
+ 'title': '喜剧之王'}
+2020-03-16 21:21:15 [scrapy.core.engine] INFO: Closing spider (finished)
+2020-03-16 21:21:15 [scrapy.extensions.feedexport] INFO: Stored csv feed (10 items) in: maoyan.csv
+2020-03-16 21:21:15 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 204,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 6591,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.933165,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 3, 16, 13, 21, 15, 780348),
+ 'item_scraped_count': 10,
+ 'log_count/DEBUG': 11,
+ 'log_count/INFO': 11,
+ 'memusage/max': 55111680,
+ 'memusage/startup': 55111680,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2020, 3, 16, 13, 21, 14, 847183)}
+2020-03-16 21:21:15 [scrapy.core.engine] INFO: Spider closed (finished)
